@@ -1,0 +1,41 @@
+// SCSS
+.header {
+  // Block
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.header__logo {
+  // Element
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.header__nav {
+  // Element
+  display: flex;
+  gap: 1em;
+}
+
+.header__nav-item {
+  // Element
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+.header__nav-services {
+  // Modifier
+  // Additional styles for the services item
+}
+
+.header__nav-features {
+  // Modifier
+  // Additional styles for the features item
+}
+
+.header__nav-blog {
+  // Modifier
+  // Additional styles for the blog item
+}
